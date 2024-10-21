@@ -3,23 +3,21 @@ title: "resubmission_Lab6"
 author: "negin safaei"
 format: revealjs
 editor: visual
+bibliography: references.bib
 ---
 
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
-## Bullets
+## 
 
-When you click the **Render** button a document will be generated that includes:
+Lab 6 : Quarto Presentation
 
--   Content authored with markdown
--   Output from executable code
+## Some important literature:
 
-## Code
+Predicting protein structure from the amino acid sequence has been a challenge with theoretical and practical significance in biophysics. Despite the recent progresses elicited by improved inter-residue contact prediction, contact-based structure prediction has gradually reached the performance ceiling. New methods have been proposed to predict the inter-residue distance, but unanimously by simplifying the real-valued distance prediction into a multiclass classification problem. [@ding2020predicting].
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+## example
 
-```{r}
-1 + 1
-```
+$$ vts = tanh(\frac{5*Vrs - 50}{12}) $$
